@@ -8,6 +8,12 @@ public class BenytBoks3
                 
                 Boks3 trejdeBoks = new Boks3();
                 System.out.println("Massefylde er: "+ trejdeBoks.massefylde());
+                
+                Boks3 fjerdeBoks = new Boks3();
+                System.out.println("Vægten er: "+ fjerdeBoks.vægt());
+                
+                Boks3 femteBoks = new Boks3();
+                System.out.println("Pyramides volumen er: "+ femteBoks.pyramide());
 
 		//Boks3 enAndenBoks = new Boks3(5, 5, 10);  // brug den anden konstruktør
 		//System.out.println("Volumen er: "+ enAndenBoks.volumen());

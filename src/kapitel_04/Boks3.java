@@ -47,8 +47,9 @@ public class Boks3 {
         return pyra;
     }
 
-    /**
+    /*
      * udregner boksens rumfang
+     * @return 
      */
     public double volumen() {
         double vol = længde * bredde * højde;
